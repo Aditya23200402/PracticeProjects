@@ -1,24 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="index.css">
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/reactdom@18/umd/react-dom.development.js"></script>
+    <script type="text/javascript" src="https://unpkg.com/babel-standalone@6/babel.js"></script>
+
 </head>
+
 <body>
-    <header>
-     CSS 3-D ROTATION 
-    </header>
-    <div class="banner">
-        <div class="product">
-            <div class="soda" style="--url: url(asset/freepik-export-20240727082728sHL5.png)"></div>
-            <div class="soda" style="--url: url(asset/freepik-export-20240728101440RuW9.png)"></div>
-        </div>
-        <div class="rock">
-            <img src="asset/rock1.png" alt="">
-            <img src="asset/rock2.png" alt="">
+    <div class="hero">
+        <div class="container">
+            <div class="clock">
+                <span id="hrs">00</span>
+                <span>:</span>
+                <span id="min">00</span>
+                <span>:</span>
+                <span id="sec">00</span>
+            </div>
         </div>
     </div>
+    <!-- <div id="root"></div> -->
+    <script src="index.js" type="text/babel"></script>
 </body>
+
 </html>
